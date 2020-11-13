@@ -1,5 +1,8 @@
-body{
-	margin:0;
+html, body{
+    margin: 0;  
+    padding: 0; 
+    height: 100%;   
+	width: 100%;   
 }
 .container{
 	width:960px;
@@ -7,7 +10,9 @@ body{
 	margin:0 auto;
 	padding: 0;
 	font-family: system-ui;
-	background:#EEE;
+		background:#EEE;
+		    position: relative;    
+    min-height: 100%;  
 }
 header{
 	width:960px;
@@ -16,12 +21,11 @@ header{
 	background-size:cover;
 	margin-bottom:50px;
 }
-#title{
+header h1{
 	color:#333;
 	font-size:55px;
 	text-align:center;
 	line-height:253px;
-	margin-top: 0;
 }
 main h2{
 	width:90%;
