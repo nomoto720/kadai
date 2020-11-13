@@ -16,11 +16,12 @@ header{
 	background-size:cover;
 	margin-bottom:50px;
 }
-header h1{
+#title{
 	color:#333;
 	font-size:55px;
 	text-align:center;
 	line-height:253px;
+	margin-top: 0;
 }
 main h2{
 	width:90%;
