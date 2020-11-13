@@ -1,3 +1,8 @@
+html{
+	margin: 0;
+	padding: 0;
+			box-sizing: border-box;
+}
 .container{
 	width:960px;
 	height:1120px;
@@ -5,7 +10,6 @@
 	padding: 0;
 	font-family: system-ui;
 	background:#EEE;
-	box-sizing: border-box; 
 }
 header{
 	width:960px;
@@ -85,8 +89,8 @@ footer{
 	text-align:center;
 	background-color:#147EEE;
 	padding:6px 0;
-	margin-bottom:;
-	box-sizing: border-box; 
+	margin-bottom:0;
+	box-sizing: border-box;
 }
 
 
